@@ -1,0 +1,180 @@
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+header {
+  position: fixed;
+  background: #202222;
+  width: 100%;
+  min-height: 126px;
+  color: #fff;
+  border-bottom: 1px solid #292B2B;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.head-wrapper {
+  width: 100%;
+  padding: 0px 20px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background: red;
+  height: 50px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background: #202222;
+  height: 50px;
+  z-index: 9;
+  width: 100%;
+  min-height: 73px;
+}
+
+.float-right {
+  float: right;
+}
+
+.profile {
+  width: 32px;
+  height: 32px;
+  background: #5897f7;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.ns-logo {
+  width: 24px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 16px;
+}
+
+.logo-text {
+  display: inline-block;
+  vertical-align: top;
+  padding: 3px 0px;
+}
+
+
+
+.footer-list {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+
+}
+
+.footer-list li {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    height: 100%;
+    height: 80px;
+    vertical-align: middle;
+
+}
+
+footer button {
+  background: none;
+  text-align: center;
+  color: #fff;
+  border: 0px;
+
+}
+
+footer button span {
+  display: block;
+}
+
+section {
+  padding-top: 140px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+
+.search-box {
+  width: calc(100% - 20px);
+  background: #ccc;
+  border: 1px solid #6dabff;
+  padding: 15px 10px;
+  background: #212934;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+
+.box {
+  border-left: 5px solid #5897f7;
+  padding: 16px;
+  background: #212934;
+
+}
+
+.leran-more-link {
+  background: none;
+  text-decoration: underline;
+  color: #5897f7;
+  border: 0px;
+}
+
+.headeing {
+  margin: 32px 0px;
+}
+
+.headeing span {
+
+  float: right;
+  margin-top: 7px;
+color: #5897f7;
+}
+
+.headeing h2 {
+  float: left;
+  margin: 0px;
+}
+
+.clear-float {
+  clear: both;
+}
+
+.over-flow-div {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.card-list {
+  display: flex;
+}
+
+.card-list li {
+  display: inline-block;
+  vertical-align: top;
+  width: 160px;
+  background: #212934;
+  margin-right: 16px;
+  padding: 16px;
+  text-align: center;
+  border-radius: 8px;
+  min-width: 160px;
+  margin-bottom: 30px;
+}
+
+img {
+    display: inline;
+    max-width: 100%;
+}
